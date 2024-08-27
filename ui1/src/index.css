@@ -1,0 +1,11 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: hsla(83, 0%, 30%, 1);
+    color: white;
+    margin: 0;
+    padding: 0;
+}

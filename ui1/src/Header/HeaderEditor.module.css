@@ -1,0 +1,98 @@
+.headerEditor {
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    flex-wrap: wrap;
+}
+
+Link {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+.logo {
+    position: relative;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logoImage {
+    height: 100%;
+    width: 100%;
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 270px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.HeaderProfile {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.userValues {
+    height: 40px;
+    width: 90px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.coinImage {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.coinValue {
+    height: 100%;
+    width: 70px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+
+hr {
+    margin: 0;
+    padding: 0;
+}

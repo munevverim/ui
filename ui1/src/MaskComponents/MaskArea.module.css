@@ -1,0 +1,147 @@
+.i2iArea {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: fixed;
+    top: 130px;
+    left: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.maskArea {
+    background-color: hsla(83, 0%, 35%, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid white;
+    height: 180px;
+    margin: 0;
+    width: auto;
+}
+
+.i2iPrompt {
+    background-color: transparent;
+    resize: none;
+    border: 1px solid hsla(83, 0%, 50%, 1);
+    height: 50px;
+    width: 200px;
+    color: white;
+	scroll-behavior: smooth;
+	scrollbar-width:thin;
+    scrollbar-color: hsl(83, 0%, 50%) transparent;
+    outline: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.i2iPrompt:focus {
+    border: 1px solid hsla(83, 0%, 90%, 1);
+}
+
+.maskButtons {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.brushButton {
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.i2iButtons {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.i2iGenerate {
+    height: 30px;
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: hsl(83, 0%, 50%);
+    border: none;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 8px;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: hsl(83, 0%, 50%);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: hsl(83, 0%, 50%);
+  cursor: pointer;
+}
+
+input[type="color" i] {
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: hsl(83, 0%, 50%);
+  padding: 1px;
+}
+
+input[type="color" i]::-webkit-color-swatch-wrapper {
+    padding: 1px;
+}
